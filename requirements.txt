@@ -1,0 +1,4 @@
+Django==5.1   # Django5.1
+mysqlclient   # pythonでMySQLに接続するためのドライバ
+djangorestframework==3.15.2
+

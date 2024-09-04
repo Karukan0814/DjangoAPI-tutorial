@@ -1,0 +1,51 @@
+# Python関連
+*.pyc
+*.pyo
+*.pyd
+__pycache__/*
+*.swp
+*.swo
+
+# Django関連
+*.log
+*.pot
+*.py[cod]
+*/migrations/*  # マイグレーションファイルを一部無視する場合
+!*/migrations/__init__.py  # 初期化ファイルは必要
+
+# 環境関連
+.env  # 環境変数ファイルを無視
+*.env
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# メディア・静的ファイル関連
+media/
+staticfiles/
+
+# macOS関連
+.DS_Store
+
+# Visual Studio Code関連
+.vscode/
+
+# Docker関連
+*.log
+*.pid
+*.seed
+*.key
+__pycache__/
+*.so
+*.cache
+*.coverage
+*.pyo
+*.pyd
+.pytest_cache/
+
+# MySQL関連
+*.sql  # データベースのダンプファイル（必要に応じて無視）
+*.sql.gz  # 圧縮されたSQLファイル
